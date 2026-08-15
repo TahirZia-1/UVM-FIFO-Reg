@@ -1,0 +1,2 @@
+#e1(15Aug2026:16:16:03): source ./xcelium.d/env.d/env.history.15Aug2026_16_16_03
+s1(15Aug2026:16:16:03):  xrun -uvm fifo.sv fifo_if.sv fifo_pkg.sv fifo_top.sv -access +rcw 

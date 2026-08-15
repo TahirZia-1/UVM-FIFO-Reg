@@ -1,0 +1,76 @@
+xrun(64): 24.09-s008: (c) Copyright 1995-2025 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	24.09-s008: Started on Aug 15, 2026 at 16:16:03 PKT
+xrun
+	-uvm
+	fifo.sv
+	fifo_if.sv
+	fifo_pkg.sv
+	fifo_top.sv
+	-access +rcw
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /opt/cadencetools/XCELIUM2409/tools/methodology/UVM/CDNS-1.1d
+file: fifo.sv
+	module worklib.fifo:sv
+		errors: 0, warnings: 0
+file: fifo_if.sv
+	interface worklib.fifo_if:sv
+		errors: 0, warnings: 0
+file: fifo_pkg.sv
+	package worklib.fifo_pkg:sv
+		errors: 0, warnings: 0
+file: fifo_top.sv
+	module worklib.fifo_tb_top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+	Top level design units:
+		uvm_pkg
+		cdns_uvmapi
+		cdns_assert2uvm_pkg
+		cdns_uvm_pkg
+		fifo_pkg
+		fifo_tb_top
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.fifo:sv <0x6a5288e9>
+			streams:  11, words:  6641
+		worklib.fifo_tb_top:sv <0x1d9051cc>
+			streams: 549, words: 610591
+		worklib.cdns_uvm_pkg:sv <0x3accc9a0>
+			streams: 172, words: 276068
+		worklib.cdns_uvmapi:svp <0x19ff6b30>
+			streams:  27, words: 30445
+		worklib.cdns_assert2uvm_pkg:sv <0x33ff2f7f>
+			streams:   3, words:  1761
+		worklib.uvm_pkg:sv <0x046e11cf>
+			streams: 4535, words: 7157484
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                        Instances  Unique
+		Modules:                        2       2
+		Interfaces:                     1       1
+		Verilog packages:               5       5
+		Registers:                 13,965  10,187
+		Scalar wires:                  14       -
+		Vectored wires:                 5       -
+		Named events:                   4      12
+		Always blocks:                  2       2
+		Initial blocks:               283     155
+		Parallel blocks:               26      27
+		Cont. assignments:              1       2
+		Pseudo assignments:            11       -
+		Assertions:                     5       5
+		SV Class declarations:        198     312
+		SV Class specializations:     381     381
+		Process Clocks:                 1       1
+		Simulation timescale:         1ps
+	Writing initial simulation snapshot: worklib.fifo_tb_top:sv
+
+Trying to check out license...
+	Xcelium_Single_Core 24.00 - Failed
+	Xcelium_Safety_Sim 24.00 - Failed
+	Xcelium_Safety 24.00 - Failed
+	Xcelium_Multi_Core 24.00 - Failed
+	Xcelium_For_Partners 24.00 - Failed
+xmsim: *F,NOLICN: Unable to checkout license for the simulation. 'lic_error LMF-03015'.
+TOOL:	xrun(64)	24.09-s008: Exiting on Aug 15, 2026 at 16:16:06 PKT  (total: 00:00:03)
