@@ -68,7 +68,7 @@ This testbench is currently configured to run using Cadence Xcelium (`xrun`).
 To compile and run the simulation, execute the following command in the terminal from the root directory of the repository:
 
 ```bash
-xrun -uvm fifo_if.sv fifo.sv fifo_pkg.sv fifo_top.sv
+xrun -uvm fifo_if.sv fifo.sv fifo_pkg.sv fifo_top.sv -access +rcw
 ```
 
 This command invokes Xcelium, enables UVM support, and compiles the necessary source files. The output of the test, including UVM info messages, pass/fail status, and coverage (if enabled), will be printed to the terminal and logged in `xrun.log`.
