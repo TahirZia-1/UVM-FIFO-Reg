@@ -56,6 +56,11 @@ The verification environment is built using the UVM standard and is composed of 
 * **`fifo_top.sv`:** The top-level SystemVerilog module that instantiates the DUT, the interface, sets up the clock and reset, and calls `run_test()`.
 * **`fifo_pkg.sv`:** A SystemVerilog package that includes and compiles all the UVM components in the correct order.
 
+## Waveform and Logs
+![Xcelium_Cadence](screenshots/waveform.png)
+
+![Xcelium_Cadence](screenshots/log.png)
+
 ## How to Run
 
 This testbench is currently configured to run using Cadence Xcelium (`xrun`).
