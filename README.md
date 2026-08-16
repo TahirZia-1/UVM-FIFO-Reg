@@ -59,7 +59,7 @@ The verification environment is built using the UVM standard and is composed of 
 ## Waveform and Logs
 ![Xcelium_Cadence](screenshots/waveform.png)
 
-![Xcelium_Cadence](screenshots/log.png)
+![Xcelium_Cadence](screenshots/logs.png)
 
 ## How to Run
 
